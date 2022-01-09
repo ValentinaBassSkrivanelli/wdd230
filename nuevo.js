@@ -1,4 +1,4 @@
-/* const daynames = [
+const daynames = [
 	"Sunday",
 	"Monday",
 	"Tuesday",
@@ -41,4 +41,3 @@ try {
 }
  
 
-*/

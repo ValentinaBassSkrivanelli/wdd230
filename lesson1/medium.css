@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em){
+    h1 {
+         color: black;
+         text-align: center;
+         
+        
+      } 
+      
+      
+      h2 {
+          margin-bottom: .5rem;
+          font-size: 1.5rem;
+          }
+        
+    footer {
+    border-radius: 10px;
+          }
+    
+   
+}

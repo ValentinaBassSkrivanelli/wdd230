@@ -1,40 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
 
 img {
   width: 200px;
-  height: 200px;
-}
+  height: 210px;
 
+}
 header {
+  text-align: center;
+  background-color: rgba(250, 242, 186, 0.729);
+  font-family: 'Roboto', sans-serif;
   align-items: center;
   display: grid;
-  grid-template-columns: 110px auto;
-  font-family: 'Roboto', sans-serif;
-  background-color: rgb(0, 255, 200);
-}
-footer{
-  background-color: rgb(14, 175, 162);
-  width: 100%;
-  height: 80px;
+  grid-template-columns: 100px auto;
+  box-shadow: 0 0 20px #777;
 
+
+}
+footer {
+  background-color: rgba(250, 242, 186, 0.729);
+  width: 100%;
+  height: 100px;
+}
+header,nav, main,footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
 }
 footer p {
   font-family: 'Roboto', sans-serif;
   color: black;
   text-align: center;
-}
+  
  
-h1, p {
-   color: black;
-   text-align: center;
 }
-
-
 h2 {
-	margin-bottom: .5rem;
+  font-size: 1.5rem;
 }
+h1, p {
+  color: black;
+   text-align: center;
+   
+} 
+
 main {
 	border: 1px solid #bbb;
 	padding: 1rem;
@@ -44,9 +56,7 @@ main {
 
 p {
 	margin: 1rem;
-	border:1px solid #ccc;
 	padding: .5rem;
-	background-color:#eee;
 	font-size: smaller;
 }
 
@@ -57,7 +67,7 @@ span {
 	font-weight: 700;
 }
 #currentdate {
-	color: forestgreen;
+	color: rgb(0, 0, 0);
 }
 
 em {

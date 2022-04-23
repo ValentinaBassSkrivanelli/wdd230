@@ -2,19 +2,27 @@
     h1 {
          color: black;
          text-align: center;
-         
+         font-size: 1.5rem;
         
       } 
       
       
-      h2 {
-          margin-bottom: .5rem;
+    h2 {
+          
           font-size: 1.5rem;
+          }
+    body {
+            font-size: 1.5rem;
+           
           }
         
     footer {
     border-radius: 10px;
           }
     
-   
+    img {
+        width: 200px;
+        height: 210px;
+
+}  
 }

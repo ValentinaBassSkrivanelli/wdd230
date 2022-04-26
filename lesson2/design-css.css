@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    color: aliceblue;
+
+}
+
+header {
+    background-color: rgb(34, 33, 33);
+}
+
+
+
+
+.container {
+    background-color: rgb(34, 33, 33);
+}
+
+article img {
+max-height: 190px;
+max-width: 650px;
+}

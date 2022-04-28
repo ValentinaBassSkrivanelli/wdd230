@@ -36,7 +36,8 @@ header {
     grid-template-rows: auto auto auto;
 }
 .container div {
- border: solid black;
+   grid-column:;
+    border: solid black;
 }
 
 .container img {

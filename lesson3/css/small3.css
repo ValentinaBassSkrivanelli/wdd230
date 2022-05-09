@@ -35,7 +35,7 @@ header {
 ul {
     list-style: none;
 }
-.nav {
+nav {
     font-family: 'PT Sans', sans-serif;
     font-size: 8px;
 }
@@ -43,10 +43,13 @@ p {
     font-family: 'PT Sans', sans-serif;
     font-size: 12px;
 }
+header {
+    color: white;
+}
 header,
 footer {
 	background-color: #114B5F;
-    color: white;
+    
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -57,4 +60,107 @@ footer {
     width: 100px;
     height: 110px;
 }
+header h1 {
+    color: #fff;
+}
+header h2 {
+    color: #fff;
+}
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	padding: .5rem;
+	color: #114B5F;
+}
+
+p {
+	padding: .5rem;
+}
+.content img {
+    width: 500px;
+    height: 110px;
+}
+.image-typography img {
+    width: 500px;
+    height: 310px;
+}
+
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+	 		nav ul { display: flex; }
+		  nav ul li { flex: 1 1 auto; } 
+
+	/* Grid *********************/
+/* 	nav ul {
+		display: grid;
+		/*grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+	} */
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+		/* 	background-color: #bbb;
+	color: #36454f; */
+		--d: 75%;
+	}
+
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 2;
+	}
+	main picture {
+		display: block;
+	}
+	main picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+    .image-color img {
+        width: 700px;
+        height: 110px;
+    }
+    .image-typography img {
+        width: 600px;
+        height: 410px;
+    }
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+    .image-color img{
+        width: 1000px;
+        height: 110px;
+    }
+}

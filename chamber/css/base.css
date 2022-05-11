@@ -39,3 +39,30 @@ nav {
     font-family: 'PT Sans', sans-serif;
     font-size: 8px;
 }
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+header {
+    color: white;
+}
+header,
+footer {
+	background-color: #114B5F;
+    color: white;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+.logo img {
+    width: 100px;
+    height: 110px;
+}
+header h1 {
+    color: #fff;
+}
+header h2 {
+    color: #fff;
+}

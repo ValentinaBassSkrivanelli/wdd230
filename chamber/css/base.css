@@ -98,7 +98,45 @@ header h2 {
 .social {
 	margin-right: 1.5rem;
 }
+footer {
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    height: 60px;
+}
 
+.site-name {
+    background-color: #9dc9d7;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+}
+.event {
+    background-color: #9dc9d7;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+}
+.weather {
+    background-color: #9dc9d7;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+}
+.new {
+    background-color: #9dc9d7;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+}
+.spot {
+    background-color: #9dc9d7;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+}
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
 	.navigation {
@@ -128,4 +166,9 @@ header h2 {
         margin: 0 auto;
         max-height: 9100px;
     } 
+    footer img {
+        width: 100px;
+        height: 110px;
+    }
+    
 }

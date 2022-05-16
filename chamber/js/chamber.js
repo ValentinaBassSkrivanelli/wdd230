@@ -10,6 +10,8 @@ document.getElementById("currentYear").textContent = currentYear
 const hambutton = document.querySelector('.ham');
 const mainnav = document.querySelector('.navigation')
 
+function toggleMenu() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");} 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 // To solve the mid resizing issue with responsive class on

@@ -13,4 +13,79 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+
+/*content */
+	.content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+		gap: 1em;
+		margin-top: 10px;
+	}
+	.site-name {
+		
+		height: 200px;
+		width: 650px;
+		margin: auto;
+		grid-column: 1/3;
+	
+	}
+	.event {
+		height: 200px;
+		width: 310px;
+		margin: auto;
+		grid-column:1/2;
+		grid-row: 5/6;
+	}
+	.weather {
+		background-color: #9dc9d7;
+		height: 200px;
+		width: 310px;
+		margin: auto;
+		grid-column:2/3;
+		grid-row: 5/6;
+
+	}
+	.new {
+		background-color: #9dc9d7;
+		height: 200px;
+		width: 650px;
+		margin: auto;
+		grid-column:1/3;
+		grid-row: 2/3;
+
+	}
+	.spot {
+		background-color: #9dc9d7;
+		height: 200px;
+		width: 300px;
+		margin: auto;
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
+	.spot1 {
+		background-color: #9dc9d7;
+		height: 200px;
+		width: 300px;
+		margin: auto;
+		grid-column: 2/3;
+		grid-row: 3/4;
+	}
+	.join {
+		background-color: #9dc9d7;
+		height: 200px;
+		width: 650px;
+		margin: auto;
+		grid-column:1/3;
+		grid-row: 4/5;
+	}
+	/*FOOTER */
+	.contact {
+	grid-column: 1/2;
+	}
+	.map {
+	grid-column: 2/3;
+	}
+	
 }

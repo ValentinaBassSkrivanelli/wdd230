@@ -1,37 +1,47 @@
 /* Small/Phone View ***************/
 nav {
-	margin: 0 auto;
-	max-width: 300px;
-} 
-.navigation {
-	list-style: none;
-	padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 8px;
+	background-color: #BC7024;
+    color:#f8cca3;
+	
 }
-.navigation li:first-child {
+nav ul  {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul.open {
+    display: block;
+}
+nav button {
+    margin: .2rem;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #114B5F;
+}
+
+nav ul li a {
 	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
+	padding: .8rem 2vw;
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
 	text-decoration: none;
 	color: black;
 	font-weight: 700;
 	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+	font-size: 8rem;
 }
 
-.navigation a.ham::before {
-	content: "🍔 ";
+nav ul li.ham {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
 }
 
-.navigation a:hover {
-	color: white;
-	background-color: black;
-}
+
+
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
@@ -44,13 +54,6 @@ nav {
 	content: "❌ ";
 }
 
-nav {
-    background-color: #BC7024;
-    color:#f8cca3;
-    text-align: center;
-	box-shadow: 0 0 30px #333;
-}
-
 nav a:hover {
 	background-color: #114B5F;
 	color: #BC7024;
@@ -60,13 +63,8 @@ header {
     font-family: 'Merriweather', serif;
     font-size: 10px;
 }
-ul {
-    list-style: none;
-}
-nav {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 8px;
-}
+
+
 p {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -137,38 +135,6 @@ footer img {
     width: 450px;
     margin: auto;
 }
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-}
 
-/* Larger viewports */
-@media only screen and (min-width: 32.5em) {
 
-	.headings h1 {
-		font-size: 2rem;
-		margin: 0;
-	}
 
-    nav {
-        margin: 0 auto;
-        max-height: 9100px;
-    } 
-    footer img {
-        width: 100px;
-        height: 110px;
-    }
-    
-}

@@ -8,11 +8,15 @@ const yearSpan = new Date()
 const currentYear = yearSpan.getFullYear();
 
 document.getElementById("currentYear").textContent = currentYear
+function toggleMenu() {
+document.getElementById("primaryNav").classList.toggle("oppen");
+}
 
-const hambutton = document.querySelector('.ham');
+const x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu;
 const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('primaryNav')}, false);
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};

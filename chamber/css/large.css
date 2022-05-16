@@ -1,0 +1,18 @@
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+
+	.headings h1 {
+		font-size: 2rem;
+		margin: 0;
+	}
+
+    nav {
+        margin: 0 auto;
+        max-height: 9100px;
+    } 
+    footer img {
+        width: 100px;
+        height: 110px;
+    }
+    
+}

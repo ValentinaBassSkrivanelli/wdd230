@@ -77,10 +77,6 @@ header,
 footer {
 	background-color: #114B5F;
     color: white;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
 	padding: 10px;
 }
 .logo img {

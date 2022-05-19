@@ -18,7 +18,7 @@ nav {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -29,8 +29,8 @@ nav {
 }
 
 .navigation a:hover {
-	color: white;
-	background-color: black;
+	color: #BC7024;
+	background-color: #114B5F;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -99,12 +99,24 @@ footer img {
     width: 50px;
     height: 60px;
 }
-.site-name {
-    background-color: #9dc9d7;
-    height: 200px;
+
+.container {
+    color: white;
+}
+.hero-div {
+    position: relative;
+    
+   
+}
+.hero {
+    background-color: #114B5F;
+    height: 254px;
     width: 450px;
     margin: auto;
     display: flex;
+    margin-top: 10px;
+   text-align: center;
+   
 }
 .event {
     background-color: #9dc9d7;
@@ -139,3 +151,21 @@ footer img {
     margin: auto;
 }
 
+.join-us {
+    color: #dec7af;
+    background-color: #BC7024;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+   
+   
+}
+.join-us:hover {
+	color: #BC7024;
+	background-color: #114B5F;
+    transition: 0.5s;
+}

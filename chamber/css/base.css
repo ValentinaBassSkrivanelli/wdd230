@@ -102,6 +102,7 @@ footer img {
 
 .container {
     color: white;
+    
 }
 .hero-div {
     position: relative;
@@ -114,21 +115,31 @@ footer img {
     width: 450px;
     margin: auto;
     display: flex;
-    margin-top: 10px;
-   text-align: center;
+
    
 }
 .event {
-    background-color: #9dc9d7;
+    color: #BC7024;
+    background-color:#f5f5f5;
     height: 200px;
     width: 450px;
     margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #BC7024;
+
 }
+
 .weather {
+   
     background-color: #9dc9d7;
     height: 200px;
     width: 450px;
     margin: auto;
+    
+}
+.weather img {
+    height: 50px;
+    width: 50px;
 }
 .new {
     background-color: #9dc9d7;

@@ -131,9 +131,10 @@ footer img {
 
 .weather {
    
-    background-color: #9dc9d7;
+    background-color: #114B5F;
     height: 200px;
     width: 450px;
+    text-align: center;
     margin: auto;
     
 }
@@ -142,26 +143,54 @@ footer img {
     width: 50px;
 }
 .new {
-    background-color: #9dc9d7;
+    background-color: #e7ecee;
     height: 200px;
     width: 450px;
     margin: auto;
+    color: #BC7024;
+    text-align: center;
+    border-left: 6px solid #114B5F;
 }
-.spot {
-    background-color: #9dc9d7;
-    height: 200px;
-    width: 450px;
-    margin: auto;
+.new h2 {
+    color: #114B5F;
+    padding-top: 30px;
 }
-
-
+.spots {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #BC7024;
+    padding: 10px;
+}
 .spot1 {
-    background-color: #9dc9d7;
+    background-color: #ffffff;
     height: 200px;
-    width: 450px;
+    width: 420px;
+  
     margin: auto;
+    border-width: 20px;
+    border: 1px solid #333;
 }
 
+.spot2 {
+    background-color: #ffffff;
+    height: 200px;
+    width: 420px;
+    margin: auto;
+    border: 1px solid #333;
+}
+.spot3 {
+    background-color: #ffffff;
+    height: 200px;
+    width: 420px;
+    margin: auto;
+    border: 1px solid #333;
+}
+
+hr {
+    width: 200px;
+    
+}
 .join-us {
     color: #dec7af;
     background-color: #BC7024;

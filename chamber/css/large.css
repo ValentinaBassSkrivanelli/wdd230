@@ -40,7 +40,7 @@
 		grid-row: 1/2;
 	}
 	.weather {
-		background-color: #9dc9d7;
+		
 		height: 200px;
 		width: 300px;
 		margin: auto;
@@ -49,7 +49,7 @@
 
 	}
 	.new {
-		background-color: #9dc9d7;
+		
 		height: 200px;
 		width: 500px;
 		margin: auto;
@@ -57,36 +57,54 @@
 		grid-row: 3/4;
 
 	}
-	.spot {
-		background-color: #9dc9d7;
-		height: 200px;
-		width: 300px;
+	.spots {
+		display: grid;
+		height: 650px;
+		width: 240px;
 		margin: auto;
 		grid-column: 3/4;
-		grid-row: 1/2;
+		grid-row: 1/4;
 	}
 	.spot1 {
-		background-color: #9dc9d7;
+		
 		height: 200px;
-		width: 300px;
+		width: 220px;
 		margin: auto;
-		grid-column: 3/4;
-		grid-row: 2/3;
+		
 	}
     .spot2 {
-		background-color: #9dc9d7;
 		height: 200px;
-		width: 300px;
+		width: 220px;
 		margin: auto;
-		grid-column: 3/4;
-		grid-row: 3/4;
+		
 	}
+	.spot3 {
+		
+		height: 200px;
+		width: 220px;
+		margin: auto;
+		
+	}
+	
 	.join {
-		background-color: #9dc9d7;
+		background-color: #BC7024;
+		
 		height: 200px;
 		width: 300px;
 		margin: auto;
 		grid-column:1/2;
 		grid-row: 3/4;
 	}
+	.join p {
+		text-align: center;
+		margin-top: 45px;
+	}
+	.button-section {
+		background-color: #114B5F;
+		color: #BC7024;
+		height: 40px;
+		width: 200px;
+		position: absolute;
+		margin-top: 10px;
+		} 
 }

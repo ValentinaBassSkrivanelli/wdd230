@@ -4,12 +4,52 @@
 	.headings h1 {
 		font-size: 2rem;
 		margin: 0;
-	}
 
+	}
+	header {
+		grid-template-columns: 1fr auto 1fr 1fr;
+		grid-template-rows: 1fr ;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	
     nav {
-        margin: 0 auto;
-        max-height: 9100px;
+        
+		grid-column: 3/4;
+		grid-row: 2/3;
+		max-width: 400px;
+		max-height: 40px;
+		margin-left: 50px;
+		margin-top: -55px;
+		background-color: #114B5F;
+			
     } 
+	.logo {
+		grid-column: 1/2 ;
+		grid-row: 1/2;
+	}
+	
+
+	header h1 {
+		grid-column: 2/3;
+		margin-left: -250px;
+	}
+	.social {
+		margin-left: 150px;
+		margin-top: 15px ;
+		
+	}
     footer img {
         width: 100px;
         height: 110px;

@@ -1,11 +1,17 @@
 /* Small/Phone View ***************/
 nav {
 	margin: 0 auto;
-	max-width: 300px;
+	max-width: 40px;
+    max-height: 40px;
+    margin-top: -70px;
+    margin-left: -2px;
 } 
 .navigation {
 	list-style: none;
 	padding: 0;
+    margin-top: -3px;
+   
+
 }
 .navigation li:first-child {
 	display: block;
@@ -16,7 +22,7 @@ nav {
 .navigation a {
 	display: block;
 	padding: 0.75rem;
-	text-align: left;
+
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-weight: 700;
@@ -24,13 +30,12 @@ nav {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a.ham::before {
-	content: "🍔 ";
-}
+
 
 .navigation a:hover {
 	color: #BC7024;
 	background-color: #114B5F;
+
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -45,16 +50,25 @@ nav {
 
 nav {
     background-color: #BC7024;
-    color:#f8cca3;
+    color:#fff0f0;
     text-align: center;
 	box-shadow: 0 0 30px #333;
+
 }
 
 nav a:hover {
 	background-color: #114B5F;
 	color: #BC7024;
 }
+
+nav {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 8px;
+}
 header {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto auto 1fr;
+    grid-template-rows: 1fr 1fr  1fr;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 10px;
@@ -62,10 +76,7 @@ header {
 ul {
     list-style: none;
 }
-nav {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 8px;
-}
+
 p {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -80,11 +91,21 @@ footer {
 	padding: 10px;
 }
 .logo img {
-    width: 100px;
-    height: 110px;
+    width: 60px;
+    height: 70px;
+    margin-left: -130px;
+ 
+}
+.logo {
+    grid-column: 2/3 ;
+    grid-row: 1/2;
 }
 header h1 {
     color: #fff;
+    grid-column: 3/4;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: -80px;
 }
 header h2 {
     color: #fff;

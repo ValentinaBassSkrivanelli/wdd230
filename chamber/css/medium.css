@@ -3,6 +3,12 @@
 	header {
 	grid-template-rows: 1fr ;
 		}
+	.social {
+		margin-right: -150px;
+	}
+	.logo img {
+		margin-left: -130px;
+	}
 /*content */
 	.content {
 		display: grid;

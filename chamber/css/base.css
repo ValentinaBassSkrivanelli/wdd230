@@ -3,8 +3,9 @@ nav {
 	margin: 0 auto;
 	max-width: 40px;
     max-height: 40px;
-    margin-top: -70px;
-    margin-left: -2px;
+    margin-left: 10px;
+    margin-top: -60px;
+    grid-column: 1/2;
 } 
 .navigation {
 	list-style: none;
@@ -68,10 +69,16 @@ nav {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr auto auto 1fr;
-    grid-template-rows: 1fr 1fr  1fr;
+    grid-template-rows:   1fr;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 10px;
+}
+.updated {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 200px;
+
 }
 ul {
     list-style: none;
@@ -93,7 +100,7 @@ footer {
 .logo img {
     width: 60px;
     height: 70px;
-    margin-left: -130px;
+   margin-left: 20px;
  
 }
 .logo {
@@ -105,13 +112,15 @@ header h1 {
     grid-column: 3/4;
     font-size: 15px;
     margin-top: 30px;
-    margin-left: -80px;
+    margin-left: 10px;
 }
 header h2 {
     color: #fff;
 }
 .social {
 	margin-right: 1.5rem;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 footer {
     text-align: center;

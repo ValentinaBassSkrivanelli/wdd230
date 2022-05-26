@@ -21,7 +21,7 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 // banner
 
 const d = new Date();
-if (( d.getDay()  == 1) ||  ( d.getDay()  == 4)) {
+if (( d.getDay()  == 1) ||  ( d.getDay()  == 2)) {
     document.querySelector('#banner').style.display="block"; 
 };
 

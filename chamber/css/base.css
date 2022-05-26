@@ -122,29 +122,26 @@ header h2 {
     margin-left: 20px;
     margin-top: 20px;
 }
-footer {
-    text-align: center;
-}
-footer img {
-    width: 50px;
-    height: 60px;
-}
 
 
 .hero-div {
     position: relative;
     
 }
-/*.hero {
-    margin: auto;
-    display: flex;
-
-   
-} */
 
 main picture.hero-img img {
     width: 100%;
     
+}
+
+#banner {
+    background-color: #d4d5d5;
+    color: #0d0707;
+    font-size: 2em;
+    width: 100%;
+   display: none;
+  
+
 }
 picture.hero-img {
     display: block;
@@ -246,4 +243,12 @@ hr {
 
 .join {
     display: none;
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    height: 60px;
 }

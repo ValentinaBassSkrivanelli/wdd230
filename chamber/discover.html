@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo gallery of the city of Salta Argentina. Know the most beautiful and visited places that this country has.">
+    <link rel="stylesheet" href="/wdd230/css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Salta Photo Gallery</title>
+<!--pagina de mi ciudad: https://www.comerciosalta.com/-->
+<!-- nombre disponible: camaracomerciosalta.com -->
+</head>
+<body>
+    <header class="title">
+        <div class="logo">
+            <img src="images/camaradecomercio.webp" alt= "chamber of commerce website logo">
+        </div>
+        <h1>CHAMBER OF COMMERCE </h1>
+        
+    <p class="updated"><span id= "currentdate"></span></p> 
+    <div class="social">
+        <img src="images/smallfacebook.png" alt= "facebook icon">
+        <img src="images/smallyoutube.png" alt= "youtube icon">
+    </div>
+        <nav>
+            <ul id="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+             
+        <button id="hamburger-button"><span>&#9776;</span><span>X</span></button>
+
+        <ul id="hamburger-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+      
+        <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+
+    </header>
+ 
+
+
+
+    <main>
+        <h1 class="discover-salta">Discover Salta</h1>
+        <p></p>
+        <div class="discover-gallery">
+        <img id="salta" class="salta" src="images/loading.webp" data-src="images/lavina.webp"
+                alt="La Vina Church">
+        <!-- <img src="/lesson7/images/lavina.webp" alt="la Vina"> -->
+        <img id="salta" class="salta" src="images/loading.webp" data-src="images/salares.webp"
+                alt="Salares Salta">
+        <img id="salta" class="salta" src="images/loading.webp" data-src="images/sanfrancisco.webp"
+                alt="San Francisco Church">
+        <img id="salta" class="salta" src="images/loading.webp" data-src="images/monumentoguemes.webp"
+                alt="Monumento Guemes">
+        <img id="salta" class="salta" src="images/loading.webp" data-src="images/lamerced.webp"
+                alt="La Merced">
+        </div>
+    </main>
+
+
+
+
+
+<footer>
+    <div class="footer-grid">
+        <div class="icon">
+            <img src="images/camaradecomercio.jpeg" alt= "chamber of commerce website logo">
+        </div>
+            <div class="contact">
+                <h5>CHAMBER OF COMMERCE SALTA</h5>
+                <address> P. Sherman, Calle Wallaby 42, Salta <br></address>
+            </div>
+
+            <div class="map">
+                <p>camarasalta@gmail.com <br></p>
+                <p>+54 9 3456 765 543</p>
+                <ul class="location">
+                    <li><a href="/index.html">Location map</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class= "copy">
+          <p>&copy;<span id="currentYear">
+          </span> .:|:. Valentina Bass .:|:. WDD230 Project</p>
+          <p class="updated"><span id= "current"></span></p>
+        </div>
+        
+</footer>
+    <script src = "js/chamber.js"></script>
+    <script src="js/nuevo.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>

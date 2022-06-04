@@ -1,4 +1,4 @@
-const lazyImages = document.querySelectorAll("[data-src]");
+const lazy = document.querySelectorAll("[data-src]");
 
 function placeholderImage(img) {
     const srcImage = img.getAttribute("data-src");
@@ -19,9 +19,9 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
             imgObserver.unobserve(entry.target);
         }
     })
-}, setsImages);
+}, setsImages); 
 
-lazyImages.forEach(image => {
+lazy.forEach(image => {
     imgObserver.observe(image);
 });
 

@@ -35,6 +35,25 @@
 		background-color: #114B5F;
 			
     } 
+	nav {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        border-left: 1px solid #376996;
+        border-top: none;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #376996;
+    }
+
+	#hamburger-nav.open{
+        display: none;
+    }
+
 	.logo {
 		grid-column: 1/2 ;
 		grid-row: 1/2;

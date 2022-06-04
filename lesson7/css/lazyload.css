@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+   
+}
+h1 {
+    text-align: center; 
+}
+
+#salta {
+    width: 100%;
+    max-width: 300px;
+}
+
+#salta img[data-src] {
+    filter: blur(0.2em);
+}
+
+#salta img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+#salta {
+        margin-left: 450px;
+}
+body {
+    background-color: aqua;
+}
+

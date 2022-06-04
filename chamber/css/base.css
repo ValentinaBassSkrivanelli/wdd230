@@ -1,71 +1,65 @@
 /* Small/Phone View ***************/
-nav {
-	margin: 0 auto;
-	max-width: 40px;
-    max-height: 40px;
-    margin-left: 10px;
-    margin-top: -60px;
-    grid-column: 1/2;
-} 
-.navigation {
-	list-style: none;
-	padding: 0;
-    margin-top: -3px;
-   
 
-}
-.navigation li:first-child {
-	display: block;
-}
-.navigation li {
-	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+nav ul li a, #hamburger-nav a {
+    display: block;
+    background-color: #1F487E;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-bottom: 1px solid #376996;
 }
 
-
-
-.navigation a:hover {
-	color: #BC7024;
-	background-color: #114B5F;
-
+nav ul li a:hover, #hamburger-nav a:hover {
+    background-color: #376996;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-  */
-.responsive li {
-	display: block;
-}
-.responsive a.ham::before {
-	content: "❌ ";
+nav ul li {
+    width: 100%;
 }
 
 nav {
-    background-color: #BC7024;
-    color:#fff0f0;
+    width: 45%;
+    display: none;
+}
+
+nav ul, #hamburger-nav {
     text-align: center;
-	box-shadow: 0 0 30px #333;
-
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    border-top: 1px solid #376996;
+}
+#hamburger-nav {
+    margin: 0 2rem 1rem 2rem;
 }
 
-nav a:hover {
-	background-color: #114B5F;
-	color: #BC7024;
+#hamburger-nav.open {
+    display: block;
+}
+#hamburger-button span:nth-child(1) {display: block;}
+#hamburger-button span:nth-child(2) {display: none;}
+
+
+#hamburger-button.open span:nth-child(1) {display: none;}
+#hamburger-button.open span:nth-child(2) {display: block;}
+
+
+#hamburger-nav {
+    margin: 0 2rem 1rem 2rem;
 }
 
-nav {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 8px;
+#hamburger-nav.open {
+    display: block;
 }
+
+
+button  {
+    background-color: red;
+}
+
+
+
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

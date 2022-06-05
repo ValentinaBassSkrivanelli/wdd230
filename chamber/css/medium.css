@@ -163,4 +163,7 @@
 		grid-column: 1/2;
 
 	}
+	/* Discover.html */
+	.salta:hover {
+		box-shadow: 0 0 50px #114B5F;}
 }

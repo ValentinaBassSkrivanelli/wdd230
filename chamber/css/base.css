@@ -10,7 +10,7 @@ nav ul li a, #hamburger-nav a {
 }
 
 nav ul li a:hover, #hamburger-nav a:hover {
-    background-color: #376996;
+    background-color: #BC7024;
 }
 
 nav ul li {
@@ -27,7 +27,7 @@ nav ul, #hamburger-nav {
     display: none;
     list-style-type: none;
     padding: 0;
-    border-top: 1px solid #376996;
+    border: 1px solid #BC7024;
 }
 #hamburger-nav {
     margin: 0 2rem 1rem 2rem;
@@ -261,4 +261,17 @@ footer img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+#salta {
+    border-radius:50%;
+}
+
+
+.visitsnum{
+    text-align: center;
+
+}
+.sanfrancisco-text, .lavina-text, .salares-text, .guemes-text, .lamerced-text{
+    width: 300px;
 }

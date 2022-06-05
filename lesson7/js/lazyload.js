@@ -13,7 +13,7 @@ const setsImages = {};
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
-            return;
+            return; 
         } else {
             placeholderImage(entry.target);
             imgObserver.unobserve(entry.target);

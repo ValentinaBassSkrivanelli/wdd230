@@ -1,63 +1,7 @@
 /* Small/Phone View ***************/
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV */
 
-nav ul li a, #hamburger-nav a {
-    display: block;
-    background-color: #1F487E;
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-    border-bottom: 1px solid #376996;
-}
-
-nav ul li a:hover, #hamburger-nav a:hover {
-    background-color: #BC7024;
-}
-
-nav ul li {
-    width: 100%;
-}
-
-nav {
-    width: 45%;
-    display: none;
-}
-
-nav ul, #hamburger-nav {
-    text-align: center;
-    display: none;
-    list-style-type: none;
-    padding: 0;
-    border: 1px solid #BC7024;
-}
-#hamburger-nav {
-    margin: 0 2rem 1rem 2rem;
-}
-
-#hamburger-nav.open {
-    display: block;
-}
-#hamburger-button span:nth-child(1) {display: block;}
-#hamburger-button span:nth-child(2) {display: none;}
-
-
-#hamburger-button.open span:nth-child(1) {display: none;}
-#hamburger-button.open span:nth-child(2) {display: block;}
-
-
-#hamburger-nav {
-    margin: 0 2rem 1rem 2rem;
-}
-
-#hamburger-nav.open {
-    display: block;
-}
-
-
-button  {
-    background-color: red;
-}
-
-
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV*/
 
 
 header {
@@ -82,9 +26,7 @@ p {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
 }
-header {
-    color: white;
-}
+
 header,
 footer {
 	background-color: #114B5F;

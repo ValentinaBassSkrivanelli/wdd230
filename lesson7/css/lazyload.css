@@ -7,21 +7,21 @@ h1 {
     text-align: center; 
 }
 
-#salta {
+.salta {
     width: 100%;
     max-width: 300px;
 }
 
-#salta img[data-src] {
+.salta img[data-src] {
     filter: blur(0.2em);
 }
 
-#salta img {
+.salta img {
     filter: blur(0em);
     transition: filter 1s;
 }
 
-#salta {
+.salta {
         margin-left: 450px;
 }
 body {

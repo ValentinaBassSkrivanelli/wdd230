@@ -168,4 +168,9 @@
 	/* Discover.html */
 	.salta:hover {
 		box-shadow: 0 0 50px #114B5F;}
+	
+		/* */
+	.description {
+	width: 543px; height: 158px;
+	}
 }

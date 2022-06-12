@@ -47,6 +47,7 @@
     <main>
         
         <form method="get" action="thankyou.html">
+    
             <fieldset>
                 <legend>Applicant information</legend>
                <label class="top">First Name*<input type="text" name="fname" required ></label>
@@ -54,7 +55,7 @@
                <label class="top">Bussines Position<input minlength="7" type="title" name="title" placeholder="" ></label>
                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                <label class="top">Phone*<input type="text" name="phone" placeholder="1231551238" required></label>
-               <label class="top">Bussines Title*<input type="title" name="title" placeholder="" required  pattern="[a-zA-Z]+"></label>
+               <label class="top">Bussines Title*<input type="title" name="businessTitle" placeholder="" required  pattern="[a-zA-Z]+"></label>
             </fieldset>
     
             <fieldset>
@@ -73,9 +74,10 @@
            
             </fieldset>
 
-                <input type="submit" value="Join us" class="submitBtn">
+            <input type="submit" value="Join us" class="submitBtn">
+  
             </form>
-                
+            
               
     </main>
 
@@ -112,5 +114,6 @@
     <script src = "js/chamber.js"></script>
     <script src="js/nuevo.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/join.js"></script>
 </body>
 </html>

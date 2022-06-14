@@ -162,7 +162,7 @@ hr {
     width: 200px;
     
 }
-.join-us {
+.join-now {
     color: #dec7af;
     background-color: #BC7024;
     font-family: 'PT Sans', sans-serif;
@@ -175,7 +175,7 @@ hr {
    
    
 }
-.join-us:hover {
+.join-now:hover {
 	color: #BC7024;
 	background-color: #114B5F;
     transition: 0.5s;

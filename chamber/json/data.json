@@ -1,0 +1,50 @@
+[
+{
+"name":"Networkr",
+"city":"Pleasant Grove, UT",
+"tel" :"(435) 319-9054",
+"url" :"https://networkr.app"
+},
+
+{"name":"Ancestry",	
+"city":"Provo, UT",
+"tel":"(801) 705-7000",
+"url":"https://www.ancestry.com/"
+}, 
+
+{"name":"Orem City",
+"city" :"Orem, UT",
+"tel" :"(801) 229-7035",
+"url" :"http://www.orem.org"
+},
+
+{"name":"PEG Companies",
+"city" :"Provo, UT",
+"tel" :"(801) 665-1998",
+"url" :"http://www.pegdevelopment.com"
+},
+
+{"name":"Captain Electric, LLC",
+"city" :"Orem, UT",
+"tel" :"(801) 224-1779",
+"url" :"http://www.captainelectricutah.com/"
+},
+
+{"name":"Residence Inn By Marriott",
+"city" :"Provo, UT",
+"tel" :"(801) 374-1000",
+"url" :"http://www.marriott.com/"
+},
+
+{"name":"Charter One",
+"city" :"Mesa, AZ",
+"tel" :"(480) 600-1028",
+"url" :"https://www.charter.one/"
+},
+
+{"name":"Rocky Mountain Power",
+"city" :"American Fork, UT",
+"tel" :"(801) 756-1239",
+"url" :"http://www.rockymountainpower.net"
+}
+]

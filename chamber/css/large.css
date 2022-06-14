@@ -35,7 +35,7 @@
         height: 110px;
     }
 
-    .content {
+    .container {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -120,7 +120,7 @@
 		text-align: center;
 		margin-top: 45px;
 	}
-	.button-section {
+	.join-us {
 		background-color: #114B5F;
 		color: #BC7024;
 		height: 40px;
@@ -128,6 +128,11 @@
 		position: absolute;
 		margin-top: 10px;
 		} 
+	.join-us:hover {
+		color: #114B5F;
+		background-color: #d3d3d3;
+		transition: 0.5s;
+		}
 
 	/* join.html*/
 	.description {width: 320px; height: 158px;

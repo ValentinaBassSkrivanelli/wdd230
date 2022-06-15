@@ -15,7 +15,8 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 60%;
+    width: 200px;
+   
 }
 section {
 background-color: rgb(251, 177, 92);
@@ -44,7 +45,7 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
         margin: auto;
-        width: 75%;  
+        width: 650px;  
         flex-wrap: wrap;
     }
 

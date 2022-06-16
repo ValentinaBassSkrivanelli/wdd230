@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/ValentinaBassSkrivanelli/wdd230/blob/main/chamber/json/data.json';
+const requestURL = 'https://valentinabassskrivanelli.github.io/wdd230/chamber/json/data.json';
 const companys = document.querySelector('.companys');
 console.log(requestURL);
 fetch(requestURL)

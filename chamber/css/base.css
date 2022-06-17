@@ -303,3 +303,43 @@ form label.top input:required:valid {
   display: table;
   clear: both;
 }
+
+/* -------DIRECTORY.HTML ----------*/
+
+section {
+    background-color: #9797974d;
+    border: solid #a09e9c;
+    text-align: center;
+
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 15px;
+
+}
+.menu {
+    background-color:#9797974d;
+    max-width:400px;
+    border: solid #a09e9c;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.menu button {
+    padding: 1rem;
+    margin-top: 15px;
+    background-color: #114B5F;
+    color: #BC7024;
+    border: solid #BC7024;
+    
+}
+#grid:hover, #list:hover  {
+	color: #114B5F;
+	background-color: #BC7024;
+    transition: 0.5s;
+}
+
+/*.companys img {
+    display: none;
+}

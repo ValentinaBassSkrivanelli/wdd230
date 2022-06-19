@@ -59,7 +59,7 @@ lazy.forEach(image => {
     imgObserver.observe(image);
 });
 
-
+ 
 
 // show todays date.
 //todayDisplay.textContent = Date.now();

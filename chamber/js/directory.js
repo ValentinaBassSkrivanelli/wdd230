@@ -1,5 +1,5 @@
 const requestURL = 'https://valentinabassskrivanelli.github.io/wdd230/chamber/json/data.json';
-const companys = document.querySelector('.companys');
+const companys = document.querySelector('#companys');
 console.log(requestURL);
 fetch(requestURL)
   .then(function (response) {
@@ -13,33 +13,33 @@ fetch(requestURL)
 function displayBusiness(content) {
     // Create elements to add to the document
     let company = document.createElement('section');
-    let logo = document.createElement('img');
+    let logoCompany = document.createElement('img');
     let businessName = document.createElement('h2');
     let city = document.createElement('p');
     let telPhone = document.createElement('p');
     let webSite = document.createElement('p');
   
-    logo.setAttribute('src', content.imageurl);
-    logo.setAttribute('alt', `logo of ${content.name} company `);
-    logo.setAttribute('loading', 'lazy');
+    logoCompany.setAttribute('src', content.imageurl);
+    logoCompany.setAttribute('alt', `logo of ${content.name} company `);
+    logoCompany.setAttribute('loading', 'lazy');
 
     businessName.textContent = `${content.name}`;
     city.textContent = `${content.city} `;
     telPhone.textContent = `${content.tel} `;
     webSite.textContent = `${content.url} `;
 
-    company.appendChild(logo);
+    company.appendChild(logoCompany);
     company.appendChild(businessName);
     company.appendChild(city);
     company.appendChild(telPhone);
     company.appendChild(webSite);
 
-    document.querySelector('div.companys').appendChild(company);
+    document.querySelector('#companys').appendChild(company);
 }
 // grid and list 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("companys");
+const display = document.getElementById("#companys");
 const gridclass = document.querySelector("grid");
 const listclass= document.querySelector("list");
 

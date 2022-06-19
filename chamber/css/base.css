@@ -313,17 +313,19 @@ section {
     margin-top: 15px;
     margin-bottom: 2px;
     padding: 15px;
+   
 
 }
 .menu {
     background-color:#9797974d;
-    max-width:500px;
+
     height: 80px;
     border: solid #a09e9c;
   
     margin-top: 20px;
     text-align: center;
     padding-bottom: 1rem;
+    justify-content: center;
 }
 .menu button {
     padding: 1rem;
@@ -331,6 +333,8 @@ section {
     background-color: #114B5F;
     color: #BC7024;
     border: solid #BC7024;
+    margin-right: 5px;
+  
     
 }
 #grid:hover, #list:hover  {
@@ -339,6 +343,6 @@ section {
     transition: 0.5s;
 }
 
-/*.companys img {
+/* .companys img {
     display: none;
 } */

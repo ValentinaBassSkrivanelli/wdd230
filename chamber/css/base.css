@@ -310,8 +310,6 @@ section {
     background-color: #9797974d;
     border: solid #a09e9c;
     text-align: center;
-
-    margin: auto;
     margin-top: 15px;
     margin-bottom: 2px;
     padding: 15px;
@@ -319,9 +317,10 @@ section {
 }
 .menu {
     background-color:#9797974d;
-    max-width:400px;
+    max-width:500px;
+    height: 80px;
     border: solid #a09e9c;
-    margin: auto;
+  
     margin-top: 20px;
     text-align: center;
     padding-bottom: 1rem;
@@ -342,4 +341,4 @@ section {
 
 /*.companys img {
     display: none;
-}
+} */

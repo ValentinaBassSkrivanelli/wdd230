@@ -173,4 +173,10 @@
 	.description {
 	width: 543px; height: 158px;
 	}
+	/* Directory.html*/
+	.menu {
+	min-width: 500px;
+
+	}
+
 }

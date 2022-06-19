@@ -134,4 +134,8 @@
 	/* join.html*/
 	.description {width: 320px; height: 158px;
 	}
+	/* directory.html*/
+	#companys {
+		max-width: 100%;
+	}
 }

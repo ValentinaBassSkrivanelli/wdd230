@@ -176,9 +176,17 @@
 
 
 	/* Directory.html*/
-	.container-directory {
+	body{
+		
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap ;
+	}
+	#companys {
+		max-width: 800px;
+		
+		}
+	section {
+		margin:  5px 5px 5px 5px ;
 	}
 }

@@ -10,10 +10,11 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: #BC7024;
 }
 nav {
-    background-color: rgb(8, 58, 115);
+    background-color: #114B5F;
+ 
 }
 
 nav ul {
@@ -26,7 +27,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
+    color: #BC7024;
     border-top: 1px solid rgba (0,0,0,0.5);
 }
 
@@ -66,17 +67,14 @@ nav ul.open {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows:   1fr;
-    text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 10px;
 }
-.updated {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    width: 200px;
 
+#currentdate {
+   width: 400px;
 }
 ul {
     list-style: none;
@@ -100,14 +98,14 @@ footer {
  
 }
 .logo {
-    grid-column: 2/3 ;
+    grid-column: 1/2 ;
     grid-row: 1/2;
 }
 header h1 {
     color: #fff;
-    grid-column: 3/4;
+    grid-column: 2/3;
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 6px;
     margin-left: 10px;
 }
 header h2 {
@@ -125,8 +123,8 @@ header h2 {
     
 }
 #banner {
-    background-color: #d4d5d5;
-    color: #0d0707;
+    background-color: #BC7024;
+    color: #ffffff;
     font-size: 2em;
     width: 600px;
     

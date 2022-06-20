@@ -1,6 +1,9 @@
 /* Larger viewports */
 @media only screen and (min-width: 60em) {
 /*NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVV*/
+	nav {
+		grid-column: 2/4;
+	}
 	nav ul {
 		display: flex;
 		margin-left: 2vw;
@@ -22,8 +25,8 @@
 
 	}
 	header {
-		grid-template-columns: 1fr auto 1fr 1fr;
-		grid-template-rows: 1fr ;
+		grid-template-columns: 1fr auto 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr ;
 	}
 
 
@@ -35,11 +38,12 @@
 
 	header h1 {
 		grid-column: 2/3;
-		margin-left: -250px;
+	
 	}
 	.social {
 		margin-left: 150px;
 		margin-top: 15px ;
+		grid-column: 5/6;
 		
 	}
     footer img {

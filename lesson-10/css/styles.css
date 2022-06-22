@@ -1,3 +1,6 @@
+h1 {
+    text-shadow: 0 0 0.2em rgba(19, 29, 139, 0.651);
+}
 h1, h2 {
     color: #1e1e86d6;
 }

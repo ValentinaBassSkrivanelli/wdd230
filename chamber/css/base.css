@@ -166,9 +166,11 @@ picture.hero-img {
     margin: auto;
     
 }
-.weather img {
+#weather-icon {
     height: 50px;
     width: 50px;
+    margin-top: -30px;
+	
 }
 .new {
     background-color: #e7ecee;
@@ -403,12 +405,28 @@ section {
     transition: 0.5s;
 }
 
-#companys {
+.companys {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-/*#companys img {
-    display: none;
-  
-} */
+.list1 section  {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+   
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #044b87;
+
+  }
+.list1 img {
+display: none;
+}
+.list1 h2 {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.list1 p {
+    margin-left: 8px;
+}

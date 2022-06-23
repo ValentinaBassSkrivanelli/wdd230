@@ -33,9 +33,9 @@ weatherIcon.setAttribute('alt', desc);
 captionDesc.textContent = desc;
   }
 
-  if (currentTemp <= 10 && speed > 4.8) {const windchill = 13.12 + 0.6215 * currentTemp - 11.37 * Math.pow(speed, 0.16) + 0.3965 * currentTemp * Math.pow(speed, 0.16);
+  if (currentTemp <= 10 && speed > 4.8) {const windChill = 13.12 + 0.6215 * currentTemp - 11.37 * Math.pow(speed, 0.16) + 0.3965 * currentTemp * Math.pow(speed, 0.16);
   
-      document.querySelector("#windchill").innerHTML = `${Math.round(windchill)}&#176;C`;
+      document.querySelector("#windChill").innerHTML = `${Math.round(windChill)}&#176;C`;
   } else {
-    document.querySelector("#windchill").innerHTML = "N/A";
+    document.querySelector("#windChill").innerHTML = "N/A";
   }

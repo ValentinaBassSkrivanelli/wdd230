@@ -187,6 +187,9 @@
 		max-width: 800px; 
 		
 		}
+		.companys h3 {
+			display: none;
+		}
 	section {
 		margin:  5px 5px 5px 5px ;
 	}

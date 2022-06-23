@@ -2,6 +2,7 @@
 {
 "name":"Networkr",
 "city":"Pleasant Grove, UT",
+"membership":"Gold",
 "tel" :"(435) 319-9054",
 "url" :"https://networkr.app",
 "imageurl": "https://firebasestorage.googleapis.com/v0/b/networkr-51651.appspot.com/o/users%2F4dhJ7rpNjoZE5ftbBMFMwDmtIfk2%2FbusinessProfileImages.1576274633596.png?alt=media&token=d34597b8-04a0-42fc-ab74-d9cef31816c4"
@@ -9,6 +10,7 @@
 
 {"name":"Ancestry",	
 "city":"Provo, UT",
+"membership":"Gold",
 "tel":"(801) 705-7000",
 "url":"https://www.ancestry.com/",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/4827/MemLogo_ancestry_white.JPG"
@@ -16,6 +18,7 @@
 
 {"name":"Orem City",
 "city" :"Orem, UT",
+"membership":"Gold",
 "tel" :"(801) 229-7035",
 "url" :"http://www.orem.org",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/833/MemLogo_507c3c3e01b68.preview-620.jpg"
@@ -23,6 +26,7 @@
 
 {"name":"PEG Companies",
 "city" :"Provo, UT",
+"membership":"Silver",
 "tel" :"(801) 665-1998",
 "url" :"http://www.pegdevelopment.com",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/2689/MemLogo_PEG.JPG"
@@ -30,6 +34,7 @@
 
 {"name":"Captain Electric, LLC",
 "city" :"Orem, UT",
+"membership":"Silver",
 "tel" :"(801) 224-1779",
 "url" :"http://www.captainelectricutah.com/",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/customers/1646/members/4787/logos/MEMBER_LOGO/Capture.PNG"
@@ -37,6 +42,7 @@
 
 {"name":"Residence Inn By Marriott",
 "city" :"Provo, UT",
+"membership":"Silver",
 "tel" :"(801) 374-1000",
 "url" :"http://www.marriott.com/",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/1251/MemLogo_ri_logo_L.png"
@@ -44,6 +50,7 @@
 
 {"name":"Charter One",
 "city" :"Mesa, AZ",
+"membership":"Bronze",
 "tel" :"(480) 600-1028",
 "url" :"https://www.charter.one/",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/5070/MemLogo_Charter%20One.PNG"
@@ -51,6 +58,7 @@
 
 {"name":"Rocky Mountain Power",
 "city" :"American Fork, UT",
+"membership":"Bronze",
 "tel" :"(801) 756-1239",
 "url" :"http://www.rockymountainpower.net",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/members/1646/486/MemLogo_Rocky-Mountain_BMP.gif"
@@ -58,6 +66,7 @@
 
 {"name":"Alexander's Print Advantage",
 "city" :"Lindon, UT",
+"membership":"Bronze",
 "tel" :"(801) 224-8666",
 "url" :"http://www.alexanders.com",
 "imageurl": "https://chambermaster.blob.core.windows.net/images/customers/1646/members/22/logos/MEMBER_LOGO/alexanders-logo.jpg"

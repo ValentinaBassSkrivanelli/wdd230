@@ -14,14 +14,20 @@
 		gap: 1em;
 		margin-top: 10px;
 	}
+	#banner {
+		height: 30px;
+		margin-top: -5px ;
+		width:auto;
+	}
 	.hero {
-		height: 200px;
+	
 		width: 570px;
 		margin: auto;
 	
 		margin-bottom: 20px;
 	}
 	main picture.hero-img img {
+		
 		height: 230px;
 		width: 100%;
 	}

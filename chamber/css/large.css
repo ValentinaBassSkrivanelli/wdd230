@@ -2,12 +2,12 @@
 @media only screen and (min-width: 60em) {
 /*NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVV*/
 	nav {
-		grid-column: 2/4;
+		grid-column: 3/5;
 	}
 	nav ul {
 		display: flex;
 		margin-left: 2vw;
-		border-left: 1px solid rgba(0,0,0,0.3);
+		
 		justify-content: center;
 	}
 	nav ul li a {
@@ -37,7 +37,9 @@
 	
 
 	header h1 {
-		grid-column: 2/3;
+		grid-column: 2/5;
+		text-align: center;
+		
 	
 	}
 	.social {
@@ -56,8 +58,13 @@
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
 		gap: 1em;
-		margin-top: 10px;
+		margin-top: 10px; 
         margin-left: 20px;
+	}
+	#banner {
+		text-align: center;
+		margin-left: 280px;
+		
 	}
 	main picture.hero-img img {
 		

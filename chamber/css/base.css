@@ -295,7 +295,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 
-/*----------- FORM --------------*/
+/*----------- Join.html --------------*/
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #114B5F;
@@ -355,7 +355,7 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 .description {
-   width: 435px; 
+   max-width: 435px; 
    height: 158px;
 }
 

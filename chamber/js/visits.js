@@ -1,6 +1,6 @@
 // local storage
 // initialize display elements
-const todayDisplay = document.querySelector(".today");
+
 const visitsDisplay = document.querySelector(".visits");
 
 // get the stored value in localStorage

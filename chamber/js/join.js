@@ -1,3 +1,5 @@
+document.getElementById('formTime').value = new Date().toString();
 
-const formTime = document.getElementById("formTime").value = new Date().toString();
-document.querySelector("#formTime").innerHTML = formTime;
+const result = window.localStorage.setItem("storemydata", document.getElementById("formTime").value);
+
+console.log(result)

@@ -358,7 +358,9 @@ form label.top input:required:valid {
     width: 96%;
    height: 158px;
 }
-
+.benefits ul li {
+    display: none;
+ }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

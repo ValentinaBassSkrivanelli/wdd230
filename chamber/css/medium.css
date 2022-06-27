@@ -180,8 +180,11 @@
 	.description {
 	width: 543px; height: 158px;
 	}
-
-
+	/* join.html*/
+	.benefits ul li {
+		display:block;
+	
+	 }
 	/* Directory.html*/
 	body{
 		

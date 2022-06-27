@@ -67,17 +67,41 @@
             <fieldset>
                 <legend>Membership</legend>
                 <div>Level</div>
-                <label class="sbs"><input type="radio" name="membership" value="np">None Profit</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze </label>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver </label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold </label>
-               
+                <div class="benefits">
+                <label class="sbs"><input type="radio" name="membership" value="np">None Profit (Free)</label>
+                <ul>
+                    <li>Logo and description of the company in the directory of members of the page.</li>
+                    <li>Access to make occasional queries to the CCS on specific topics for its follow-up.</li>
+                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
+                </ul>
+      
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($1000 p/month) </label>
+                <ul>
+                    <li>Logo and description of the company in the directory of members of the page.</li>
+                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
+                    <li>Small advertising space (1/8) in Business Directory.</li>
+                    
+                </ul>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($1500 p/month) </label>
+                <ul>
+                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
+                    <li>3 Direct recommendations with companies.</li>
+                    <li>2 posts on CCMA social networks per year.</li>
+                </ul>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($2000 p/month)</label>
+                    <ul>
+                        <li>Access to discounts and access to special events negotiated with our suppliers.</li>
+                        <li>Free access to 1 Chamber event that will have a cost.</li>
+                        <li>Direct recommendations with companies.</li>
+                        <li>Be speakers from event to event convened by the CCS.</li>
+                    </ul>
+                </div>
             </fieldset>
     
             <fieldset>
             <legend>Bussines Description</legend>
-            <textarea name="description" class="description"></textarea>
-           
+            <label><textarea name="description" class="description"></textarea></label>
+            <input type="hidden" name = "currentdate" id="currentdate" value=""></label>
             </fieldset>
 
             <input type="submit" value="Join us" class="submitBtn">
@@ -119,7 +143,6 @@
 </footer>
     <script src = "js/chamber.js"></script>
     <script src = "js/nav.js"></script>
-    <script src="js/nuevo.js"></script>
     <script src="js/join.js"></script>
 </body>
 </html>

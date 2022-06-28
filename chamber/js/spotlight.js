@@ -8,7 +8,10 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const business = jsonObject['business'];
-    business.forEach(displayBusiness);
+    for (let i = 0; i < 3; i++) {
+        displayBusiness(business[i]);
+    }
+   
 });
 function displayBusiness(content) {
     // Create elements to add to the document
@@ -39,25 +42,5 @@ function displayBusiness(content) {
     company.appendChild(telPhone);
     company.appendChild(webSite);
 
-    document.querySelector('.companys').appendChild(company);
-}
-// grid and list 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector(".companys");
-const gridclass = document.querySelector("grid1");
-const listclass= document.querySelector("list1");
-
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid1");
-  display.classList.remove("list1");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-display.classList.add("list1");
-display.classList.remove("grid1");
+    document.querySelector('#spot').appendChild(company);
 }

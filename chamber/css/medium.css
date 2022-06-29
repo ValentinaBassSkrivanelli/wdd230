@@ -174,8 +174,34 @@
 	}
 	/* Discover.html */
 	.salta:hover {
-		box-shadow: 0 0 50px #114B5F;}
+		box-shadow: 0 0 50px #114B5F;
+	}
+
+	.discover-gallery {
+		display: flex;
+		flex-direction: row;
 	
+	}
+	.discover-gallery p {
+	font-size: 10px;
+		}
+	.discover-salta {
+	 text-align: center;
+	
+	}
+	.img1, .img2, .img3, .img4,.img5{
+	 
+		margin: 8px;
+		height: 365px;
+		padding: 0.8rem;
+
+
+	}
+	/* .salta{
+	
+	float: left;
+		}
+		*/
 		/* */
 	.description {
 	width: 543px; height: 158px;
@@ -185,13 +211,14 @@
 		display:block;
 	
 	 }
-	/* Directory.html*/
+	/* Directory.html
 	body{
 		
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap ;
 	}
+	*/
 	#companys {
 		max-width: 800px; 
 		

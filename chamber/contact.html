@@ -52,60 +52,40 @@
 
     <main>
         
-        <form method="get" action="thankyou.html">
+        <form method="get" action="contactthankyou.html">
     
             <fieldset>
-                <legend>Applicant information</legend>
+                <legend>Complete the form</legend>
                <label class="top">First Name*<input type="text" name="fname" required ></label>
                <label class="top">Last Name*<input type="text" name="lname" required ></label>
-               <label class="top">Bussines Position<input minlength="7" type="text" name="title" placeholder="Executive President" pattern= "[-A-Za-z\s]{7,}" ></label>
-               <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-               <label class="top">Tel*<input type="text" name="tel" placeholder="1231551238" required></label>
-               <label class="top">Bussines Title*<input type="text" name="businessTitle" placeholder="Mercado Libre Company" pattern= "[-A-Za-z\s]{7,}" required ></label>
+               <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>  
+               <label class="top">Company Name*<input type="text" name="cname" placeholder="Mercado Libre Company" pattern= "[-A-Za-z\s]{7,}" required ></label>
             </fieldset>
     
             <fieldset>
                 <legend>Membership</legend>
-                <div>Level</div>
-                <div class="benefits">
-                <label class="sbs"><input type="radio" name="membership" value="np">None Profit (Free)</label>
-                <ul>
-                    <li>Logo and description of the company in the directory of members of the page.</li>
-                    <li>Access to make occasional queries to the CCS on specific topics for its follow-up.</li>
-                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
-                </ul>
+                <div>Are you a membership?</div>
+                <div class="chamber-member">
+                <label class="sbs"><input type="radio" name="membership" value="none">None </label>
+              
       
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze ($1000 p/month) </label>
-                <ul>
-                    <li>Logo and description of the company in the directory of members of the page.</li>
-                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
-                    <li>Small advertising space (1/8) in Business Directory.</li>
-                    
-                </ul>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver ($1500 p/month) </label>
-                <ul>
-                    <li>Access to discounts and access to special events negotiated with our suppliers.</li>
-                    <li>3 Direct recommendations with companies.</li>
-                    <li>2 posts on CCMA social networks per year.</li>
-                </ul>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold ($2000 p/month)</label>
-                    <ul>
-                        <li>Access to discounts and access to special events negotiated with our suppliers.</li>
-                        <li>Free access to 1 Chamber event that will have a cost.</li>
-                        <li>Direct recommendations with companies.</li>
-                        <li>Be speakers from event to event convened by the CCS.</li>
-                    </ul>
+                <label class="sbs"><input type="radio" name="membership" value="yes"> Yes </label>
+              
+                <label class="sbs"><input type="radio" name="membership" value="notsure"> Not Sure </label>
+               
+              
+                  
                 </div>
             </fieldset>
     
             <fieldset>
-            <legend>Bussines Description</legend>
+            <legend>Write your questions about the Chamber of Commerce</legend>
             <input type="hidden" id="formTime" name="currentDate" value="">
             <label><textarea name="description" class="description"></textarea></label>
         
             </fieldset>
 
-            <input type="submit" value="Join us" class="submitBtn">
+            <input type="submit" value="Contact us" class="submitBtn">
   
             </form>
             
@@ -144,6 +124,6 @@
 </footer>
     <script src = "js/chamber.js"></script>
     <script src = "js/nav.js"></script>
-    <script src="js/join.js"></script>
+ 
 </body>
 </html>

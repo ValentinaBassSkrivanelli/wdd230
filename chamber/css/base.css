@@ -31,13 +31,8 @@ nav ul li a {
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-}
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-}
+
+
 nav ul {
     display: none;
 }
@@ -261,28 +256,46 @@ footer img {
 .discover-salta {
     color:#114B5F ;
     font-family: 'PT Sans', sans-serif;
+    width:100%;
     text-align: center;
+
 }
 
 .discover-gallery {
-    margin-left: 50px;
+  
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    justify-content: center;
+   
+}
+.discover-gallery p {
+width:250px;
 }
 
 .salta {
     border-radius:50%;
 }
+.discover-h5 {
+    width: 250px;
+}
+.img1, .img2, .img3, .img4,.img5{
+    background-color: #bc7024ca ;
+    margin-bottom: 5px;
+    padding: 0.8rem;
+    border-radius: 5px ;
 
+
+}
 
 .visitsnum{
     text-align: center;
 
 }
 .sanfrancisco-text, .lavina-text, .salares-text, .guemes-text, .lamerced-text{
-    width: 300px;
+    width: 250px;
 }
 
 /* JOIN:HTML FORM */

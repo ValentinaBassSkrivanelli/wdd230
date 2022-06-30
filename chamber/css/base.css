@@ -61,11 +61,9 @@ nav ul.open {
 
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows:   1fr;
     font-family: 'Merriweather', serif;
     font-size: 10px;
+    width: auto;
 }
 
 #currentdate {
@@ -85,20 +83,17 @@ footer {
 	background-color: #114B5F;
     color: white;
 	padding: 10px;
-    width: 100%;
+    width: auto;
 }
 .logo img {
     width: 60px;
    margin-left: 20px;
  
 }
-.logo {
-    grid-column: 1/2 ;
-    grid-row: 1/2;
-}
+
 header h1 {
     color: #fff;
-    grid-column: 2/3;
+ 
     font-size: 15px;
     margin-top: 6px;
     margin-left: 10px;
@@ -141,27 +136,27 @@ main picture.hero-img img {
 picture.hero-img {
     display: block;
     width: 96%;
-    margin: 0 2%;
+  
 }
 
 .event {
     color: #BC7024;
     background-color:#f5f5f5;
     height: 200px;
-    width: 450px;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
     border-top: 6px solid #BC7024;
-
+	padding: 12px;
 }
 
 .weather {
-   
+    padding: 5px;
     background-color: #114B5F;
-    height: 200px;
-    width: 450px;
+    height: 230px;
+    width: 100%;
     text-align: center;
-    margin: auto;
+    margin-top: 15px;
     
 }
 #weather-icon {
@@ -173,17 +168,18 @@ picture.hero-img {
 .new {
     background-color: #e7ecee;
     height: 200px;
-    width: 450px;
-    margin: auto;
+    width: 100%;
+    margin-top: 15px;
     color: #BC7024;
     text-align: center;
     border-left: 6px solid #114B5F;
+    padding: 5px;
 }
 .new h2 {
     color: #114B5F;
     padding-top: 30px;
 }
-.spots {
+.spot {
     color: #333;
     text-align: center;
     margin-top: 20px;
@@ -191,30 +187,34 @@ picture.hero-img {
     padding: 10px;
     margin-bottom: 20px;
 }
-.spot1 {
+.spotlight1 {
     background-color: #ffffff;
     height: 200px;
-    width: 420px;
-  
+    padding: 1rem;
     margin: auto;
     border-width: 20px;
     border: 1px solid #333;
 }
 
-.spot2 {
+.spotlight2{
     background-color: #ffffff;
     height: 200px;
-    width: 420px;
+    padding: 1rem;
     margin: auto;
     border: 1px solid #333;
 }
-.spot3 {
+.spotlight3 {
+    display: none;
     background-color: #ffffff;
     height: 200px;
-    width: 420px;
+    padding: 1rem;
     margin: auto;
     border: 1px solid #333;
+
 }
+.spotlight1 img {width: 50px;}
+.spotlight2 img {width: 150px;}
+.spotlight3 img {width: 60px;}
 
 hr {
     width: 200px;
@@ -230,7 +230,7 @@ hr {
     position: absolute;
     top: 200px;
     right: 20px;
-   
+    
    
 }
 .join-now:hover {
@@ -451,4 +451,15 @@ display: none;
 }
 .list1 p {
     margin-left: 8px;
+}
+/* CONTACT.HTML*/
+.contact {
+    background-color: #bc7024b6;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contact h1 {
+    color: #114B5F;
 }

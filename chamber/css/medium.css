@@ -1,18 +1,18 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 38.5em) {
 	header {
-	display: grid;
-	max-width: 100%;
+	width: 100%;
 	}
 
 
 /*container */
 	.container {
 		display: grid;
-		grid-template-columns: none ;
+		grid-template-columns: 50px 50px;
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
 		gap: 1em;
-		margin-top: 10px;
+		margin-top: 5px;
+		
 	}
 	#banner {
 		height: 30px;
@@ -20,32 +20,38 @@
 		width:auto;
 	}
 	.hero {
-	
-		width: 570px;
-		margin: auto;
-	
-		margin-bottom: 20px;
+		width: 650px;
+
 	}
 	main picture.hero-img img {
-		
+		grid-column: 1/5;
 		height: 230px;
-		width: 100%;
+		width: 96%;
+
+	
+	}
+	.join-now {
+		top: 150px;
+		left: 400px;
+		border-radius: 15px;
 	}
 	.event {
-		height: 200px;
-		width: 250px;
-		margin: auto;
-		
+		height: auto;
+		width:auto;
+		margin: 2px;
+		grid-column: 1/4;
 		grid-row: 5/6;
-		margin-right: 315px;
+		border-radius: 15px;
+		
 	}
 	.weather {
-		
-		height: 200px;
-		width: 280px;
-		margin: auto;
-		margin-left: -300px;
+		color: #ffffff;
+		height: auto;
+		width: auto;
+		margin: 5px;
+		grid-column: 4/5;
 		grid-row: 5/6;
+		border-radius: 15px;
 	
 	}
 	.weather-h2 {
@@ -56,65 +62,57 @@
 	}
 	
 	.new {
-		
-		height: 200px;
-		width: 550px;
+		padding: 5px;
 		margin: auto;
-	
+		grid-column: 1/5;
 		grid-row: 2/3;
-		
+		border-radius: 15px;
 
 	}
-	.spots {
+	.spot {
 		display: flex;
+		grid-column: 1/5;
 		grid-row:3/4 ;
 		height: 150px;
-		width: 550px;
+		width: 100%;
+		height: auto;
 		font-size: 12px;
-		
+		justify-content: center;
+		border-radius: 15px;
 	}
-	.spots p {
+	.spot p {
 		font-size: 10px;
 	}
-	hr {
-		width: 50px;
-	}
-	
 
-	.spot1 {
-		
+	.spotlight1 {	
+		height: auto;
+		min-width: 48%;
+		margin: 1px;
+
+	}
+	.spotlight2 {
 		height: 150px;
-		width: 180px;
-		margin: auto;
+		min-width: 48%;
+		min-height: 190px ;		
+		margin: 1px;
 	
 	}
-	.spot2 {
-		
-		height: 150px;
-		width: 180px;
-		margin: auto;
-		
-	}
-	.spot3 {
-		
-		height: 150px;
-		width: 180px;
-		margin: auto;	
-	}
+
 	
 	.join {
 		display: block;
+		color: #fff;
 		background-color: #114B5F ;
 		height: 200px;
-		width: 570px;
+		width: 100%;
 		margin: auto;
-		
+		grid-column: 1/5;
 		grid-row: 4/5;
+		padding: 10px;
+		border-radius: 15px;
+		
 		
 
-	}
-	.join-now {
-		top: 180px;
 	}
 	
 	.join-us {
@@ -123,9 +121,11 @@
 		font-family: 'PT Sans', sans-serif;
 		font-size: 30px;
 		height: 40px;
-		width: 500px;
+		width: 80%;
 		position: absolute;
-		margin: 50px;
+		margin: 40px;
+		border-radius: 5px;
+	
 	
 	   
 	}
@@ -133,30 +133,31 @@
 		color: #BC7024;
 		background-color: #114B5F;
 		transition: 0.5s;
+
+	}
+	.join p {
+		margin-left: 35px;
+		width: auto;
 	}
 	
 	/*FOOTER */
 
 	
 
-	footer .footer-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		
-	}
+
 	.icon img {
 		height: 120px;
 		width: 120px;
 	}
 	.icon {
 		
-		grid-column: 1/2;
+	
 		margin-left:20px ;
 	}	
-	.contact {
+	.footer-contact {
 		
 	
-		grid-column: 2/3;
+	
 		width: 150px;
 		margin-left: 30px;
 		

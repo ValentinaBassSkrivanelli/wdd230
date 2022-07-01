@@ -15,12 +15,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/f0b4635a18.js" crossorigin="anonymous"></script>
     <title>Chamber of Commerce</title>
 <!--pagina de mi ciudad: https://www.comerciosalta.com/-->
 <!-- nombre disponible: camaracomerciosalta.com -->
 </head>
 <body>
-    <header class="title">
+    <header>
+        <div class="header-container">
         <div class="logo">
             <a href="index.html"><img src="images/camaradecomercio.webp" alt= "chamber of commerce website logo"></a>
         </div>
@@ -29,9 +31,9 @@
         
        
       <div class="social">
-        <img src="images/smallfacebook.png" alt= "facebook icon">
-        <img src="images/smallyoutube.png" alt= "youtube icon">
-    </div>
+        <a href="https://www.facebook.com/"><button><i class="fa-brands fa-facebook-f"></i></button></a>
+        <a href="https://www.youtube.com/"><button><i class="fa-brands fa-youtube"></i></button></a>
+      </div>
     
         <nav>
             <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
@@ -43,9 +45,14 @@
                 <li><a href="contact.html">Contact</a></li>    
             </ul>
         </nav>
-        <div></div>
+        </div> <!--header-container-->
+
+        <div class="currentadate-box">
         <p class="updated"><span id= "currentdate"></span></p>
+        </div>
+        
         <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+       
     </header>
  
     
@@ -59,7 +66,7 @@
                         <source media= "(max-width: 800px)" srcset="images/large.jpg">
                         <img src="images/wdd230-org.jpg" alt=" Join Chamber of Commerce join">
                     </picture>
-                    <button class="join-now">Join Now</button>
+                    <a href="join.html"><button class="join-now">Join Now</button></a>
                 </div>
               
           
@@ -97,7 +104,7 @@
             <div class="join">
                 <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
                
-                <button class="join-us">Join Us</button>  
+                <a href="join.html"><button class="join-us">Join Us</button></a>
               
             </div>
             

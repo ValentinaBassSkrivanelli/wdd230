@@ -1,7 +1,9 @@
 /* Larger viewports */
 @media only screen and (min-width: 50em) {
 /*NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVV*/
-	/*nav {} */
+	nav {
+		grid-column: 2/5;
+	} 
 	nav ul {
 		display: flex;
 		margin-left: 2vw;
@@ -17,17 +19,25 @@
 		display:none;
 	}
 /*NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVV*/
+	header {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto auto;
+		grid-template-rows: 1fr 1fr ;
+	}
 	.headings h1 {
+
 		font-size: 2rem;
 		margin: 0;
 
 	}
 
 	.social {
-		margin-left: 150px;
+		grid-column: 4/5;
 		margin-top: 15px ;
 		
 	}
+
+	
     footer img {
         width: 100px;
         height: 110px;

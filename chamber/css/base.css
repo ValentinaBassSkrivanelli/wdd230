@@ -14,6 +14,7 @@ nav button {
 }
 nav {
     background-color: #114B5F;
+    margin-left: 15px;
 
 }
 
@@ -61,14 +62,20 @@ nav ul.open {
 
 
 header {
+
     font-family: 'Merriweather', serif;
     font-size: 10px;
-    width: auto;
+
+   
+}
+.header-container {
+    display: flex;
+
+
+
 }
 
-#currentdate {
-   width: 400px;
-}
+
 ul {
     list-style: none;
 }
@@ -77,34 +84,41 @@ p {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
 }
-
+ .currentdate-box {
+    width: 100%;
+    background-color: #bc7024b2;
+    padding: 5px;
+    margin-left: 35%;
+}
 header,
 footer {
 	background-color: #114B5F;
     color: white;
 	padding: 10px;
-    width: auto;
+  
 }
 .logo img {
     width: 60px;
-   margin-left: 20px;
  
 }
 
 header h1 {
     color: #fff;
- 
     font-size: 15px;
     margin-top: 6px;
     margin-left: 10px;
+    align-items: center;
+
+  
+
 }
 header h2 {
     color: #fff;
 }
 .social {
-	margin-right: 1.5rem;
-    margin-left: 20px;
-    margin-top: 20px;
+	
+    margin-left: 25px;
+    margin-top: 5px;
 }
 
 

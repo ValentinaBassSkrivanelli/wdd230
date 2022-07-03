@@ -16,38 +16,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/f0b4635a18.js" crossorigin="anonymous"></script>
     <title>Chamber of Commerce</title>
+
 <!--pagina de mi ciudad: https://www.comerciosalta.com/-->
 <!-- nombre disponible: camaracomerciosalta.com -->
 </head>
 <body>
-    <header class="title">
+    <header>
+        <div class="header-container">
         <div class="logo">
             <a href="index.html"><img src="images/camaradecomercio.webp" alt= "chamber of commerce website logo"></a>
         </div>
+
         <h1>CHAMBER OF COMMERCE </h1>
         
-    <p class="updated"><span id= "currentdate"></span></p> 
-    <div class="social">
-        <img src="images/smallfacebook.png" alt= "facebook icon">
-        <img src="images/smallyoutube.png" alt= "youtube icon">
-    </div>
-    <nav>
-        <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>    
-        </ul>
-    </nav>
-      
-        <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+       
+      <div class="social">
+        <a href="https://www.facebook.com/"><button><i class="fa-brands fa-facebook-f"></i></button></a>
+        <a href="https://www.youtube.com/"><button><i class="fa-brands fa-youtube"></i></button></a>
+      </div>
+    
+        <nav>
+            <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>
+        </div> <!--header-container-->
 
+        <div class="currentdate-box">
+        <p class="updated"><span id= "currentdate"></span></p>
+        </div>
+
+        <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+       
     </header>
  
-
 
 
     <main>
@@ -104,11 +113,12 @@
 
 
 
-<footer>
-    <div class="footer-grid">
-        <div class="icon">
-            <img src="images/camaradecomercio.jpeg" alt= "chamber of commerce website logo">
-        </div>
+    <footer>
+        <div class="footer-1">
+            <div class="icon">
+                <img src="images/camaradecomercio.jpeg" alt= "chamber of commerce website logo">
+            </div>
+
             <div class="footer-contact">
                 <h5>CHAMBER OF COMMERCE SALTA</h5>
                 <address> P. Sherman, Calle Wallaby 42, Salta <br></address>
@@ -122,16 +132,18 @@
                 </ul>
             </div>
         </div>
+            <hr class="footer-hr">
 
-        <div class= "copy">
-          <p>&copy;<span id="currentYear">
-          </span> .:|:. Valentina Bass .:|:. WDD230 Project</p>
-          <p class="updated"><span id= "current"></span></p>
-        </div>
-        
-</footer>
+            <div class= "copy">
+            <p>&copy;<span id="currentYear">
+            </span> .:|:. Valentina Bass .:|:. WDD230 Project</p>
+            <p class="updated"><span id= "current"></span></p>
+            </div>
+            
+    </footer>
     <script src = "js/chamber.js"></script>
-    <script src = "js/nav.js"></script>
- 
+    <script src="js/nav.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/spotlight.js"></script>
 </body>
 </html>

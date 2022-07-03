@@ -1,12 +1,19 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 38.5em) {
-	header {
-	width: 100%;
-
+	.header-container {
+		display: flex;
+		flex-direction: row;
 	}
 
+	.social {
+		margin-left: 60%;
+	}
+	.currentdate-box {
+		
+		margin-left: 40%;
+	}
 
-/*container */
+	/*container */
 	.container {
 		display: grid;
 		grid-template-columns: 50px 50px;
@@ -25,9 +32,9 @@
 
 	}
 	main picture.hero-img img {
-		grid-column: 1/5;
+		grid-column: 1/2;
 		height: 230px;
-		width: 96%;
+
 
 	
 	}
@@ -106,7 +113,6 @@
 		background-color: #114B5F ;
 		height: 200px;
 		width: 100%;
-		margin: auto;
 		grid-column: 1/5;
 		grid-row: 4/5;
 		padding: 10px;
@@ -142,37 +148,23 @@
 	}
 	
 	/*FOOTER */
-
-	
-
-
-	.icon img {
-		height: 120px;
+	footer img {
 		width: 120px;
+		height: 120px;
 	}
-	.icon {
-		
-	
-		margin-left:20px ;
-	}	
+	.footer-1 {
+		display: flex;
+		flex-direction: row;
+	}
 	.footer-contact {
-		
-	
-	
-		width: 150px;
-		margin-left: 30px;
-		
+		margin-left: 10px;
 	}
-	.map {
-		
-		grid-column: 3/4;
-		margin-left: 50px;
-		margin-top: 20px;
-	}
-	.copy {
-		
-		grid-column: 1/2;
 
+	footer .map {
+		margin-left: 40%;
+	}
+	footer .copy p {
+		margin-left: 40px;
 	}
 	/* Discover.html */
 	.salta:hover {

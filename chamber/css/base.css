@@ -64,17 +64,12 @@ nav ul.open {
 header {
 
     font-family: 'Merriweather', serif;
-    font-size: 10px;
-
-   
+    font-size: 10px; 
 }
 .header-container {
     display: flex;
 
-
-
 }
-
 
 ul {
     list-style: none;
@@ -85,11 +80,13 @@ p {
     font-size: 15px;
 }
  .currentdate-box {
-    width: 100%;
+    padding: 1px;
+    width: 180px;
     background-color: #bc7024b2;
-    padding: 5px;
-    margin-left: 35%;
+    text-align: center;
+    margin-left: 30%;
 }
+
 header,
 footer {
 	background-color: #114B5F;
@@ -119,6 +116,7 @@ header h2 {
 	
     margin-left: 25px;
     margin-top: 5px;
+    width: 7px;
 }
 
 
@@ -264,6 +262,13 @@ footer img {
     width: 50px;
     height: 60px;
 }
+footer .copy {
+	display: flex;
+	}
+	
+	.footer-hr {
+		width: 100%;
+	}
 
 /* -------------Discover.html------*/
 

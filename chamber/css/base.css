@@ -119,10 +119,15 @@ header h2 {
 	
     margin-left: 25px;
     margin-top: 5px;
-  
-  
 }
+.social a {
+    color: white;
+   margin-left: 10px;
 
+}
+i{
+    width: 5px;
+}
 
 .hero-div {
     position: relative;

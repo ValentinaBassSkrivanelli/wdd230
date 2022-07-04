@@ -123,18 +123,21 @@
 	}
 	
 	.join-us {
-		color: #dec7af;
+
 		background-color: #BC7024;
-		font-family: 'PT Sans', sans-serif;
-		font-size: 30px;
+		padding: 5px;
 		height: 40px;
 		width: 80%;
 		position: absolute;
 		margin: 40px;
 		border-radius: 5px;
-	
-	
 	   
+	}
+	.join-us a {
+		color: #dec7af;
+		text-decoration: none;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 30px;
 	}
 	.join-us:hover{
 		color: #BC7024;

@@ -43,6 +43,7 @@
 	.currentdate-box {
 		width: 100%;
 		margin-left: -1px;
+
 		height: 35px;
 	}
 	
@@ -67,8 +68,6 @@
 	}
 	#banner {
 		text-align: center;
-		margin-left: 280px;
-		
 	}
 	main picture.hero-img img {
 		

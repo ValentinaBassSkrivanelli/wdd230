@@ -1,0 +1,500 @@
+/* Small/Phone View ***************/
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #BC7024;
+}
+nav {
+    background-color: #114B5F;
+    margin-left: 39px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #BC7024;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a {
+
+ width: 100%;
+}
+
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;}
+#hamburguerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburguerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburguerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+
+
+/* NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV*/
+
+
+header {
+
+    font-family: 'Merriweather', serif;
+    font-size: 10px; 
+}
+.header-container {
+    display: flex;
+
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+ .currentdate-box {
+    padding: 1px;
+    width: 180px;
+    background-color: #bc7024b2;
+    text-align: center;
+    margin-left: 30%;
+}
+
+header,
+footer {
+	background-color: #114B5F;
+    color: white;
+	padding: 10px;
+  
+}
+.logo img {
+    width: 60px;
+ 
+}
+
+header h1 {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-left: 10px;
+    align-items: center;
+
+  
+
+}
+header h2 {
+    color: #fff;
+}
+.social {
+	
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.social a {
+    color: white;
+   margin-left: 10px;
+
+}
+i{
+    width: 5px;
+}
+
+.hero-div {
+    position: relative;
+    
+}
+#banner {
+    background-color: #BC7024;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 0.5em;;
+    width: 460px;
+    display: none; 
+    width: 100%;
+  
+
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+main picture.hero-img img {
+    width: 100%;
+
+}
+picture.hero-img {
+    display: block;
+    width: 96%;
+  
+}
+
+.event {
+    color: #BC7024;
+    background-color:#f5f5f5;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #BC7024;
+	padding: 12px;
+}
+
+.weather {
+    padding: 5px;
+    background-color: #114B5F;
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+#weather-icon {
+    height: 50px;
+    width: 50px;
+    margin-top: -30px;
+	
+}
+.new {
+    background-color: #e7ecee;
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+    color: #BC7024;
+    text-align: center;
+    border-left: 6px solid #114B5F;
+    padding: 5px;
+}
+.new h2 {
+    color: #114B5F;
+    padding-top: 30px;
+}
+.spot {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #BC7024;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.spotlight1 {
+    background-color: #ffffff;
+    height: 200px;
+    padding: 1rem;
+    margin: auto;
+    border-width: 20px;
+    border: 1px solid #333;
+}
+
+.spotlight2{
+    background-color: #ffffff;
+    height: 200px;
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid #333;
+}
+.spotlight3 {
+    display: none;
+    background-color: #ffffff;
+    height: 200px;
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid #333;
+
+}
+.spotlight1 img {width: 50px;}
+.spotlight2 img {width: 150px;}
+.spotlight3 img {width: 60px;}
+
+hr {
+    width: 200px;
+    
+}
+.join-now  {
+    background-color: #BC7024;
+    height: 30px;
+    width: 100px;
+    padding: 2px ;
+    position: absolute;
+    top: 200px;
+    right: 30px; 
+    border-radius: 15px;
+    
+}
+.join-now a {
+    text-decoration: none;
+    color: #dec7af;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+ 
+
+}
+.join-now:hover {
+	color: #BC7024;
+	background-color: #114B5F;
+    transition: 0.5s;
+}
+
+.join {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    height: 60px;
+}
+footer .copy {
+	display: flex;
+	}
+	
+	.footer-hr {
+		width: 100%;
+	}
+
+/* -------------Discover.html------*/
+
+.discover-salta {
+    color:#114B5F ;
+    font-family: 'PT Sans', sans-serif;
+    width:100%;
+    text-align: center;
+
+}
+
+.discover-gallery {
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.discover-gallery p {
+width:250px;
+}
+
+.salta {
+    border-radius:50%;
+}
+.discover-h5 {
+    width: 250px;
+}
+.img1, .img2, .img3, .img4,.img5{
+    background-color: #bc7024ca ;
+    margin-bottom: 5px;
+    padding: 0.8rem;
+    border-radius: 5px ;
+
+
+}
+
+.visitsnum{
+    text-align: center;
+
+}
+.sanfrancisco-text, .lavina-text, .salares-text, .guemes-text, .lamerced-text{
+    width: 250px;
+}
+
+/* JOIN:HTML FORM */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+/*----------- Join.html --------------*/
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #114B5F;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+form legend {
+    color:#114B5F;
+    margin: 0 1rem;
+    padding: 0 .5rem;;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #114B5F;
+    font-size: .8rem ;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #114B5F;
+    border-radius: 4px;
+    padding: .75rem ;
+    color: #114B5F;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #114B5F;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+.description {
+    width: 96%;
+   height: 158px;
+}
+.benefits ul li {
+    display: none;
+ }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -------DIRECTORY.HTML ----------*/
+
+section {
+    background-color: #9797974d;
+    border: solid #a09e9c;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    padding: 15px;
+    min-width: 350px;
+    border-radius: 5px;
+   
+   
+
+}
+.menu {
+    background-color:#9797974d;
+    height: 80px;
+    border: 1px solid #114B5F;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+.menu button {
+    padding: 1rem;
+    margin-top: 15px;
+    background-color: #114B5F;
+    color: #BC7024;
+    border: solid #BC7024;
+    margin-right: 5px;
+    border-radius: 5px;
+  
+    
+}
+#grid:hover, #list:hover  {
+	color: #114B5F;
+	background-color: #BC7024;
+    transition: 0.5s;
+}
+
+.companys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #114B5F;
+}
+.companys h3 {
+    color: #BC7024;
+}
+.list1 section  {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #114B5F;
+
+  }
+.list1 img {
+display: none;
+}
+.list1 h2 {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+.list1 p {
+    margin-left: 8px;
+}
+/* CONTACT.HTML*/
+.contact {
+    background-color: #bc7024b6;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.contact h1 {
+    color: #114B5F;
+}
